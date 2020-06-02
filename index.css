@@ -55,7 +55,39 @@ header{
   margin: 5px;
   padding: 15px;
 }
-
+.vidPrev{
+  display: flex;
+  flex-direction: row;
+}
+.vidImg{
+  width: 168px;
+  height: 94px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.prevTitle{
+  font-size: 15px;
+  margin: 0 0 0 5px;
+}
+.vidInfo{
+  font-size: 11px;
+  color: gray;
+  margin: 1px 0 0 5px;
+}
+#vidLine{
+ color: #ececec;
+  margin: 15px;
+}
+#autoBtn{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+#thumbPrev{
+  display: flex;
+  flex-direction: column;
+}
 footer{
   background: white;
   padding: 25px;
