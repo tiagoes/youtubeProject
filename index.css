@@ -39,7 +39,7 @@ header{
   justify-content: space-between;
   font-size: 20px;
   background-color: white;
-  
+
 }
  /**tiago*/
 #searchB p {
@@ -55,7 +55,7 @@ header{
 
 #inputButton {
   width: 100px;
-  border-radius: 200px; 
+  border-radius: 200px;
 }*/
 /*test*/
 #divInput {
@@ -64,11 +64,11 @@ header{
     flex-direction: row;
     /* width: 100%; */
     width: 900px;
-    
+
     align-items: center;
-    
+
   }
-  
+
 #divInput input{
   width: 800px;
   height: 25px;
@@ -185,6 +185,3 @@ footer a{
 
 /**/
 /*section 2*/
-#vidTitle {
-  background-color: blue;
-}
