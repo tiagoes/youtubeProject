@@ -55,28 +55,71 @@ header{
   margin: 5px;
   padding: 15px;
 }
+
+footer{
+  background: white;
+  padding: 25px;
+    font-family: arial, sans-serif;
+    margin-bottom: 25px;
+}
+footer a{
+  text-decoration: none;
+      color: #333333;
+}
 #footTop{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
+    color: #333333;
 }
 #footBot{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+        margin: 5px;
 }
-footer{
-  background: white;
-  padding: 25px;
-
+#footTop button{
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 5px 5px 5px 25px;
+  font-size: 11px;
+  background: #f8f8f8;
+  border-radius: 2px;
+ cursor: pointer;
+ height: 28px;
+     font-family: arial, sans-serif;
 }
-footer a{
-  text-decoration: none;
+#footTop a{
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 5px 10px 5px 25px;
+  font-size: 11px;
+  background: #f8f8f8;
+  border-radius: 2px;
+   line-height: 18px;
 }
 #footLine{
-  opacity: 0.75;
+ color: #ececec;
   margin: 15px;
+}
+#footBot a{
+  margin: 5px;
+}
+#botLinks{
+  font-size: 11px;
+    color: #333333;
+      margin-top: 5px;
+}
+
+#triangle{
+  position: relative;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #333333;
+  top: 7.5px;
+  margin: 5px;
+
 }
