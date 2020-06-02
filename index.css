@@ -1,5 +1,8 @@
+
 body {
   background-color: #f1f1f1;
+  border: 2px solid #999999;
+  margin: 100px 150px 100px 150px;
 }
 header{
   display: flex;
