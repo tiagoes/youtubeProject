@@ -11,12 +11,13 @@ header{
   width: 100%
 }
 #searchB{
+  background-color: white;
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  
+  margin-bottom: 15px;
 }
 
 
@@ -45,7 +46,7 @@ header{
   background-color: white;
 
 }
-#searchB input {
+/* #searchB input {
   background-color: white;
   justify-self: center;
   width: 800px;
@@ -54,16 +55,49 @@ header{
 
 #inputButton {
   width: 100px;
+  border-radius: 200px; 
+}*/
+/*test*/
+#divInput {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+    width: 900px;
+    
+    align-items: center;
+    
+  }
+  
+#divInput input{
+  width: 800px;
+  height: 25px;
+  border-radius: 0px;
+}
+#divInput button {
+  width: 100px;
+  height: 30px;
+  border-radius: 0px;
+}
+#SignIn {
+  background-color: #167ac6;
+  color: white;
+  font-size: 15px;
+  height: 30px;
+  border-radius: 2px;
+
 }
 
-#searchB button {
+
+/*Endingtest*/
+/* #searchB button {
   background-color: #167ac6;
   color: white;
   font-size: 11px;
   height: 30px;
   border-radius: 2px;
 
-}
+} */
 /* #linksH a {
   text-decoration: none;
   color: #167ac6;
