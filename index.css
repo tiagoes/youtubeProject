@@ -1,6 +1,8 @@
 body {
   background-color: #f1f1f1;
 }
+
+
 header{
   display: flex;
   flex-direction: column;
@@ -11,19 +13,84 @@ header{
 #searchB{
   display: flex;
   flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  
 }
+
+
 #languageH{
-  background: blue;
+  background: #167ac6;
   color: white;
-  width: 100%
+  width: 100%;
+  /**/
+  margin-left: 30px;
+  margin-right: 30px;
 }
 #linksH{
   display: flex;
   flex-direction: row;
-  width: 100%
+  width: 100%;
   line-height: 25px;
   text-decoration: none;
+  border: 1px solid #167ac6;
+  justify-content: space-between;
+  font-size: 20px;
+  background-color: white;
+  
 }
+ /**tiago*/
+#searchB p {
+  background-color: white;
+
+}
+#searchB input {
+  background-color: white;
+  justify-self: center;
+  width: 800px;
+  height: 25px;
+}
+
+#inputButton {
+  width: 100px;
+}
+
+#searchB button {
+  background-color: #167ac6;
+  color: white;
+  font-size: 11px;
+  height: 30px;
+  border-radius: 2px;
+
+}
+/* #linksH a {
+  text-decoration: none;
+  color: #167ac6;
+} */
+#languageH p {
+  margin-left: 75px;
+  font-size: 15px;
+}
+
+#linksH p {
+  margin-left: 50px;
+}
+
+#change {
+  text-decoration: none;
+  color: #167ac6;
+}
+
+
+#learn {
+  text-decoration: none;
+  color: #167ac6;
+  margin-top: 15px;
+  margin-right: 25px;
+}
+/*000*/
+
 #bodySections{
   display: flex;
   flex-direction: row;
@@ -80,3 +147,6 @@ footer a{
   opacity: 0.75;
   margin: 15px;
 }
+
+
+/**/
