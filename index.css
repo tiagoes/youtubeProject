@@ -1,3 +1,82 @@
 body {
-    background-color: red;
+  background-color: #f1f1f1;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%
+}
+#searchB{
+  display: flex;
+  flex-direction: row;
+}
+#languageH{
+  background: blue;
+  color: white;
+  width: 100%
+}
+#linksH{
+  display: flex;
+  flex-direction: row;
+  width: 100%
+  line-height: 25px;
+  text-decoration: none;
+}
+#bodySections{
+  display: flex;
+  flex-direction: row;
+  margin: 25px;
+}
+#leftSection{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  width: 60%;
+}
+#thumbnails{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+#video{
+  border: 2px solid black;
+  background: white;
+  margin: 5px;
+}
+#vidTitle{
+  background: white;
+  margin: 5px;
+  padding: 15px;
+}
+#vidDesc{
+  background: white;
+  margin: 5px;
+  padding: 15px;
+}
+#footTop{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#footBot{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer{
+  background: white;
+  padding: 25px;
+
+}
+footer a{
+  text-decoration: none;
+}
+#footLine{
+  opacity: 0.75;
+  margin: 15px;
 }
