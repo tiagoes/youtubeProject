@@ -73,9 +73,10 @@ header{
   }
 
 #divInput input{
-  width: 800px;
+  width: 600px;
   height: 25px;
   border-radius: 0px;
+  margin-left: 40px;
 }
 #divInput button {
   width: 100px;
@@ -418,4 +419,51 @@ opacity: 0.5;
   margin: 0;
   font-size: small;
   color: rgb(146, 144, 144);
+}
+
+#Nlspan {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); background-position: -198px -862px; padding-left: 25px; 
+  height: 25px;
+  margin-left: 25px; 
+
+}
+
+#youtube{
+  width: 120px;
+  height: 30px;
+}
+
+#NL {
+  font-size: 10px;
+}
+
+/*navBar*/
+#AddTo {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-position: -151px -725px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#More {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-position: -154px -860px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#Share {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-position: -267px -824px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#a359 {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-position: 0px -867px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#a14 {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-position: -174px -804px; padding-left: 25px;
+  opacity: 0.5;
 }
