@@ -15,16 +15,17 @@
         <!-- <img id="youtube" src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt=""> -->
         <span id="Nlspan">
         </span>
-        
+
         <img id="youtube" src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="">
         <p id="NL" >NL</p>
 
-        
+
         <div id="divInput">
-        <input type="text">
-        <button type="button" id="inputButton"></button>
+        <input type="text" placeholder="Search">
+        <button type="button" id="inputButton"><span id="mag"></span></button>
       </div>
-   
+
+      <span id="arrow"></span>
 
     <!-- <input type="text" id="input">
     <button type="button" id="inputButton"></button> -->
@@ -32,7 +33,9 @@
     <button id="SignIn">Sign In</button>
   </div>
   <div id="languageH">
-    <p>Choose your language. Hello</p>
+
+    <p><span id="langLogo"></span>Choose your language.</p>
+    <button id="langBut"></button>
   </div>
   <div id="linksH">
     <p>You're viewing YouTube in English (US). You can <a href="" id="change" >change this preference below.</a> </p>
@@ -65,8 +68,9 @@
             <p id="t">T</p>
             <div id="secondFlex">
               <p id="odin">The Odin Project</p>
-              <div id="thirdFlex">
-                <p id="subscribers">Subscribe</p>
+              <div id="thirdFlex"><div>
+                <span id="subscribers"><span id="play"></span>Subscribe</span>
+                  <span id="numOfSubs">799</span></div>
                 <p id="views">50,016 views</p>
               </div>
             </div>
@@ -114,8 +118,10 @@
       <section id="thumbnails">
         <!-- first video -->
         <div id="autoBtn">
-          <span>Up next</span>
-          <span>Autoplay</span>
+          <span id="upNext">Up next</span>
+          <span id="autoplay">Autoplay<span id="i"></span>
+          <input id="checkBox" type="checkbox" checked="checked" value="on">
+          </span>
         </div>
         <div class="vidPrev">
           <img class="vidImg" src="images/contrib-to-open.jpg" alt="video preview">

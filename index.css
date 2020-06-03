@@ -2,7 +2,8 @@
 body {
   background-color: #f1f1f1;
   border: 2px solid #999999;
-  margin: 25px 50px 25px 50px;
+  min-width: 1028px;
+    font-family: roboto, arial, sans-serif;
 }
 
 
@@ -20,11 +21,16 @@ header{
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  margin-bottom: 15px;
+  margin: 15px;
+
 }
 
 
 #languageH{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
   background: #167ac6;
   color: white;
   width: 100%;
@@ -36,9 +42,9 @@ header{
   display: flex;
   flex-direction: row;
   width: 100%;
-  line-height: 25px;
+  line-height: 20px;
   text-decoration: none;
-  border: 1px solid #167ac6;
+  border: 3px solid #167ac6;
   justify-content: space-between;
   font-size: 20px;
   background-color: white;
@@ -75,21 +81,48 @@ header{
 #divInput input{
   width: 600px;
   height: 25px;
-  border-radius: 0px;
+padding-left: 5px;
   margin-left: 40px;
+border: 1px solid gray;
+
 }
 #divInput button {
-  width: 100px;
-  height: 30px;
-  border-radius: 0px;
+  width: 75px;
+  height: 28px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid gray;
 }
+#mag{
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -28px -66px;
+  padding-left: 20px;
+  vertical-align: middle;
+  opacity: 0.5;
+}
+#arrow{
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -125px -314px;
+  padding-left: 20px;
+  vertical-align: middle;
+  height: 25px;
+  margin: 15px;
+  opacity: 0.5;
+}
+
 #SignIn {
+  display: inline-block;
+  font-family: roboto, arial, sans-serif;
   background-color: #167ac6;
   color: white;
-  font-size: 15px;
-  height: 30px;
+  font-size: 11px;
+  height: 28px;
   border-radius: 2px;
-
+padding: 0px 10px;
+vertical-align: middle;
+width: 75px;
+border: 1px solid #167ac6;
+margin-right: 25px;
 }
 
 
@@ -102,17 +135,33 @@ header{
   border-radius: 2px;
 
 } */
-/* #linksH a {
-  text-decoration: none;
-  color: #167ac6;
-} */
-#languageH p {
-  margin-left: 75px;
-  font-size: 15px;
-}
 
+#languageH p {
+  margin-left: 25px;
+  font-size: 15px;
+
+}
+#langLogo{
+background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+background-position: -119px -376px;
+padding-left: 30px;
+vertical-align: middle;
+margin-right: 5px;
+}
+#langBut{
+
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -53px -701px;
+background-color: transparent;
+border: transparent;
+  height: 20px;
+  width: 20px;
+align-self: center;
+margin-right: 10px;
+}
 #linksH p {
-  margin-left: 50px;
+  margin-left: 20px;
+  font-size: 15px;
 }
 
 #change {
@@ -121,11 +170,11 @@ header{
 }
 
 
-#learn {
+#learn{
   text-decoration: none;
   color: #167ac6;
-  margin-top: 15px;
-  margin-right: 25px;
+  font-size: 11px;
+  margin: 10px;
 }
 /*000*/
 
@@ -140,6 +189,26 @@ header{
   margin: 5px;
   width: 60%;
 }
+#upNext{
+  font-size: 13px;
+  font-weight: bold;
+}
+#autoplay{
+  font-size: 13px;
+  color: #767676;
+  font-weight: bold;
+}
+#i{
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -56px -511px;
+  opacity: 0.5;
+  margin: 5px;
+    padding-left: 20px;
+}
+#checkBox{
+
+}
+
 #thumbnails{
   display: flex;
   flex-direction: column;
@@ -187,7 +256,7 @@ header{
 display: flex;
 flex-direction: row;
 justify-content: space-between;
-margin-bottom: 5px;
+margin: 10px;
 }
 #thumbPrev{
   display: flex;
@@ -314,34 +383,39 @@ opacity: 0.5;
 }
 
 #subscribers {
-  border: 1px solid black;
-  width: 100px;
-  padding-left: 45px;
 
+  width: 125px;
+line-height: 24px;
+font-size: 12px;
   background-color: red;
   color: white;
-
+padding: 5px;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
 
 }
-#subscribers::after{
-  border: 1px solid black;
+#numOfSubs{
+
   width: 25px;
-  height: 25px;
-  content:'799';
+  height: 22px;
+  line-height: 24px;
+  padding: 5px;
+border: 1px solid #ccc;
   background-color: white;
-  color: gray;
-  margin-left: 16px;
+  color: black;
+  margin-left: -4px;
+  vertical-align: middle;
+  font-size: 11px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+
 }
 
-#subscribers::before{
-  border: 1px solid black;
-  width: 25px;
-  height: 25px;
-  content:'799';
-  background-color: white;
-  color: gray;
-  margin-left: -50px;
-  margin-right: 25px;
+#play{
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -48px -775px;
+  padding-left: 20px;
+  vertical-align: middle;
 }
 
 
@@ -422,9 +496,10 @@ opacity: 0.5;
 }
 
 #Nlspan {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); background-position: -198px -862px; padding-left: 25px; 
-  height: 25px;
-  margin-left: 25px; 
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); background-position: -198px -862px; padding-left: 25px;
+  height: 15px;
+  margin-left: 25px;
+  vertical-align: middle;
 
 }
 
@@ -435,35 +510,37 @@ opacity: 0.5;
 
 #NL {
   font-size: 10px;
+  margin-top: -5px;
+    font-family: arial,sans-serif;
 }
 
 /*navBar*/
 #AddTo {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: -151px -725px; padding-left: 25px;
   opacity: 0.5;
 }
 
 #More {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: -154px -860px; padding-left: 25px;
   opacity: 0.5;
 }
 
 #Share {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: -267px -824px; padding-left: 25px;
   opacity: 0.5;
 }
 
 #a359 {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: 0px -867px; padding-left: 25px;
   opacity: 0.5;
 }
 
 #a14 {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); 
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: -174px -804px; padding-left: 25px;
   opacity: 0.5;
 }
