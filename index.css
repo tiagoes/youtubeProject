@@ -1,6 +1,6 @@
 body {
   background-color: #f1f1f1;
-  
+
 }
 
 
@@ -157,29 +157,82 @@ header{
   margin: 5px;
   padding: 15px;
 }
+.vidPrev{
+  display: flex;
+  flex-direction: row;
+}
+.vidImg{
+  width: 168px;
+  height: 94px;
+  border: 1px solid black;
+  margin: 5px;
+}
+.prevTitle{
+  font-size: 15px;
+  margin: 0 0 0 5px;
+}
+.vidInfo{
+  font-size: 11px;
+  color: gray;
+  margin: 1px 0 0 5px;
+}
+#vidLine{
+ color: #ececec;
+  margin: 15px;
+}
+#autoBtn{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 5px;
+}
+#thumbPrev{
+  display: flex;
+  flex-direction: column;
+}
+.text{
+  width: 150px;
+}
+
+footer{
+  background: white;
+  padding: 25px;
+    font-family: arial, sans-serif;
+    margin-bottom: 25px;
+}
+footer a{
+  text-decoration: none;
+      color: #333333;
+}
 #footTop{
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   width: 100%;
+    color: #333333;
 }
 #footBot{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+        margin: 5px;
 }
-footer{
-  background: white;
-  padding: 25px;
+#footTop button{
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 5px 5px 5px 25px;
+  font-size: 11px;
+  background: #f8f8f8;
+  border-radius: 2px;
+ cursor: pointer;
+ height: 28px;
+ font-family: arial, sans-serif;
+}
 
-}
-footer a{
-  text-decoration: none;
-}
 #footLine{
-  opacity: 0.75;
+ color: #ececec;
   margin: 15px;
 }
 
