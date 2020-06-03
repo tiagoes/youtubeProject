@@ -2,8 +2,9 @@
 body {
   background-color: #f1f1f1;
   border: 2px solid #999999;
-  min-width: 1028px;
-    font-family: roboto, arial, sans-serif;
+  width: 1028px;
+  font-family: roboto, arial, sans-serif;
+  margin: auto;
 }
 
 
@@ -197,6 +198,7 @@ margin-right: 10px;
   font-size: 13px;
   color: #767676;
   font-weight: bold;
+  margin-left: 200px;
 }
 #i{
   background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
@@ -205,14 +207,16 @@ margin-right: 10px;
   margin: 5px;
     padding-left: 20px;
 }
-#checkBox{
+/* #checkBox{
 
-}
+} */
 
 #thumbnails{
   display: flex;
   flex-direction: column;
   margin: 5px;
+  background-color: white;
+  width: 500px;
 }
 #video{
   border: 2px solid black;
@@ -359,9 +363,9 @@ opacity: 0.5;
 
 /**/
 /* main video section */
-#section2 {
+/* #section2 {
   /* background-color: blue; */
-}
+
 
 #t  {
   border: 1px solid black;
@@ -476,16 +480,16 @@ border: 1px solid #ccc;
 }
 
 
-#navBox1{
+/* #navBox1{
   /* border: 1px solid black; */
   /* display: flex;
   flex-direction: row;
   justify-content: space-; */
-}
 
-#navBox2 {
+
+/* #navBox2 {
   /* border: 1px solid black; */
-}
+
 
 /*third section*/
 #showMore {
@@ -543,4 +547,12 @@ border: 1px solid #ccc;
   background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: -174px -804px; padding-left: 25px;
   opacity: 0.5;
+}
+
+
+#checkIm {
+  height: 30px;
+  margin-top: -4px;
+  
+  
 }
