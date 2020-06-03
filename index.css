@@ -195,7 +195,7 @@ margin-bottom: 5px;
 .text{
   width: 150px;
 }
-
+/* footer bar */
 footer{
   background: white;
   padding: 25px;
@@ -237,10 +237,58 @@ footer a{
  color: #ececec;
   margin: 15px;
 }
+#footBot a{
+  margin: 5px;
+}
+#botLinks{
+  font-size: 11px;
+    color: #333333;
+      margin-top: 5px;
+}
+
+#triangle{
+  position: relative;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #333333;
+  top: 7.5px;
+  margin: 5px;
+
+}
+
+#lang{
+  background-image: url(https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  background-position: 0px -666px;
+  background-repeat: no-repeat;
+  background-color: transparent;
+border: 1px solid black;
+  height: 15px;
+  width: 25px;
+}
+
+#histLink{
+
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 5px 10px 5px 25px;
+  font-size: 11px;
+  background: #f8f8f8;
+  border-radius: 2px;
+
+}
+
+#hist{
+  background-image: url(https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  background-position: -213px -605px;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0 6px 0 0;
+opacity: 0.5;
+}
 
 
 /**/
-/*section 2*/
+/* main video section */
 #section2 {
   /* background-color: blue; */
 }
