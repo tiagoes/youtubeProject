@@ -283,10 +283,11 @@ footer a{
 #footTop{
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 100%;
     color: #333333;
+    margin-left: 15px;
 }
 #footBot{
   display: flex;
@@ -329,22 +330,27 @@ footer a{
   margin: 5px;
 
 }
+#footLog{
+  background-image: url('https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png');
+  background-size: 100px 30px;
+  height: 30px;
+  width: 100px;
+}
 
 #lang{
   background-image: url(https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
   background-position: 0px -666px;
-  background-repeat: no-repeat;
-  background-color: transparent;
-border: 1px solid black;
-  height: 15px;
-  width: 25px;
+  padding-left: 25px;
+  margin-right: 5px;
+  opacity: 0.5;
+  vertical-align: middle;
 }
 
 #histLink{
 
   margin: 5px;
   border: 1px solid #d3d3d3;
-  padding: 5px 10px 5px 25px;
+  padding: 5px 10px 5px 10px;
   font-size: 11px;
   background: #f8f8f8;
   border-radius: 2px;
@@ -354,12 +360,31 @@ border: 1px solid black;
 #hist{
   background-image: url(https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
   background-position: -213px -605px;
-  vertical-align: middle;
-  font-size: 20px;
-  margin: 0 6px 0 0;
-opacity: 0.5;
+  padding-left: 15px;
+  margin-right: 5px;
+  opacity: 0.5;
+vertical-align: middle;
+  font-size: 15px;
 }
+#helpLink{
 
+  margin: 5px;
+  border: 1px solid #d3d3d3;
+  padding: 5px 10px 5px 10px;
+  font-size: 11px;
+  background: #f8f8f8;
+  border-radius: 2px;
+
+}
+#help{
+  background-image: url(https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  background-position: -147px -230px;
+  padding-left: 15px;
+  margin-right: 5px;
+  opacity: 0.5;
+vertical-align: middle;
+  font-size: 15px;
+}
 
 /**/
 /* main video section */
@@ -553,6 +578,6 @@ border: 1px solid #ccc;
 #checkIm {
   height: 30px;
   margin-top: -4px;
-  
-  
+
+
 }
