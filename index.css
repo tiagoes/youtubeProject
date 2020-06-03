@@ -39,7 +39,7 @@ header{
   justify-content: space-between;
   font-size: 20px;
   background-color: white;
-
+  
 }
  /**tiago*/
 #searchB p {
@@ -55,7 +55,7 @@ header{
 
 #inputButton {
   width: 100px;
-  border-radius: 200px;
+  border-radius: 200px; 
 }*/
 /*test*/
 #divInput {
@@ -64,11 +64,11 @@ header{
     flex-direction: row;
     /* width: 100%; */
     width: 900px;
-
+    
     align-items: center;
-
+    
   }
-
+  
 #divInput input{
   width: 800px;
   height: 25px;
@@ -185,3 +185,133 @@ footer a{
 
 /**/
 /*section 2*/
+#section2 {
+  /* background-color: blue; */
+}
+
+#t  {
+  border: 1px solid black;
+  line-height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+
+  background-color: #66a137;
+  color: white;
+}
+
+#odin  {
+  /* border: 1px solid black; */
+  margin-left: -5px;
+  color: rgb(114, 112, 112);
+  font-weight: 600;
+}
+
+#subscribers {
+  border: 1px solid black;
+  width: 100px;
+  padding-left: 45px;
+
+  background-color: red;
+  color: white;
+
+
+}
+#subscribers::after{
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  content:'799';
+  background-color: white;
+  color: gray;
+  margin-left: 16px;
+}
+
+#subscribers::before{
+  border: 1px solid black;
+  width: 25px;
+  height: 25px;
+  content:'799';
+  background-color: white;
+  color: gray;
+  margin-left: -50px;
+  margin-right: 25px;
+}
+
+
+#views  {
+  /* border: 1px solid black; */
+  color: rgb(170, 163, 163);
+  font-size: 25px;
+}
+
+#section2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 1000px;
+}
+
+#secondFlex{
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 20px;
+}
+
+#thirdFlex  {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 520px;
+  margin-top: -25px;
+}
+
+
+
+#navMainBox  {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: start; */
+
+}
+#navMainBox a {
+  text-decoration: none;
+  color: rgb(170, 163, 163);
+}
+#navBox1 a{
+  margin-right: 10px;
+}
+
+#navBox2 a {
+  margin-left: 10px;
+}
+
+
+#navBox1{
+  /* border: 1px solid black; */
+  /* display: flex;
+  flex-direction: row;
+  justify-content: space-; */
+}
+
+#navBox2 {
+  /* border: 1px solid black; */
+}
+
+/*third section*/
+#showMore {
+  text-align: center;
+  margin: 0;
+  font-size: small;
+  color: rgb(146, 144, 144);
+}
