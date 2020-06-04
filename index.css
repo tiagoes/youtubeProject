@@ -1,4 +1,54 @@
+/*New Stuff*/
 
+#vidTitle h1{
+  font-size: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+#a359 {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: 0px -867px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#a14 {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -174px -804px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#section2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 1000px;
+  /**/
+  margin-bottom: -28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+
+
+
+/*NEW CSS*/
 body {
   background-color: #f1f1f1;
   border: 2px solid #999999;
@@ -6,7 +56,7 @@ body {
   font-family: roboto, arial, sans-serif;
   margin: auto;
 }
-
+/* hEADER SECTION */
 
 header{
   display: flex;
@@ -15,6 +65,7 @@ header{
   justify-content: center;
   width: 100%
 }
+/**sEARCH bAR/*/
 #searchB{
   background-color: white;
   display: flex;
@@ -25,75 +76,51 @@ header{
   margin: 15px;
 
 }
-
-
-#languageH{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-
-  background: #167ac6;
-  color: white;
-  width: 100%;
-  /**/
-  margin-left: 30px;
-  margin-right: 30px;
-}
-#linksH{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  line-height: 20px;
-  text-decoration: none;
-  border: 3px solid #167ac6;
-  justify-content: space-between;
-  font-size: 20px;
-  background-color: white;
+#Nlspan {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); background-position: -198px -862px; padding-left: 25px;
+  height: 15px;
+  margin-left: 25px;
+  vertical-align: middle;
 
 }
- /**tiago*/
-#searchB p {
-  background-color: white;
 
-}
-/* #searchB input {
-  background-color: white;
-  justify-self: center;
-  width: 800px;
-  height: 25px;
+#youtube{
+  width: 120px;
+  height: 30px;
 }
 
-#inputButton {
-  width: 100px;
-  border-radius: 200px;
-}*/
-/*test*/
+#NL {
+  font-size: 10px;
+  margin-top: -5px;
+    font-family: arial,sans-serif;
+}
 #divInput {
-    /* border: 3px solid black; */
-    display: flex;
-    flex-direction: row;
-    /* width: 100%; */
-    width: 900px;
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: row;
+  /* width: 100%; */
+  width: 900px;
 
-    align-items: center;
+  align-items: center;
 
-  }
+}
 
 #divInput input{
-  width: 600px;
-  height: 25px;
+width: 600px;
+height: 25px;
 padding-left: 5px;
-  margin-left: 40px;
+margin-left: 40px;
 border: 1px solid gray;
 
 }
 #divInput button {
-  width: 75px;
-  height: 28px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-  border: 1px solid gray;
+width: 75px;
+height: 28px;
+border-top-right-radius: 2px;
+border-bottom-right-radius: 2px;
+border: 1px solid gray;
 }
+
 #mag{
   background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
   background-position: -28px -66px;
@@ -125,98 +152,89 @@ width: 75px;
 border: 1px solid #167ac6;
 margin-right: 25px;
 }
-
-
-/*Endingtest*/
-/* #searchB button {
-  background-color: #167ac6;
-  color: white;
-  font-size: 11px;
-  height: 30px;
-  border-radius: 2px;
-
-} */
-
+/*LANGUAGE BAR*/
 #languageH p {
   margin-left: 25px;
   font-size: 15px;
 
 }
-#langLogo{
-background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-background-position: -119px -376px;
-padding-left: 30px;
-vertical-align: middle;
-margin-right: 5px;
-}
-#langBut{
-
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -53px -701px;
-background-color: transparent;
-border: transparent;
-  height: 20px;
-  width: 20px;
-align-self: center;
-margin-right: 10px;
-}
-#linksH p {
-  margin-left: 20px;
-  font-size: 15px;
-}
-
-#change {
-  text-decoration: none;
-  color: #167ac6;
-}
-
-
-#learn{
-  text-decoration: none;
-  color: #167ac6;
-  font-size: 11px;
-  margin: 10px;
-}
-/*000*/
-
-#bodySections{
+#languageH{
   display: flex;
   flex-direction: row;
-  margin: 25px;
+  justify-content: space-between;
+
+  background: #167ac6;
+  color: white;
+  width: 100%;
+  /**/
+  margin-left: 30px;
+  margin-right: 30px;
 }
+#langLogo{
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -119px -376px;
+  padding-left: 30px;
+  vertical-align: middle;
+  margin-right: 5px;
+  }
+  #langBut{
+  
+    background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-position: -53px -701px;
+  background-color: transparent;
+  border: transparent;
+    height: 20px;
+    width: 20px;
+  align-self: center;
+  margin-right: 10px;
+  }
+
+  #linksH p {
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  #linksH{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    line-height: 20px;
+    text-decoration: none;
+    border: 3px solid #167ac6;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: white;
+  
+  }
+
+  #change {
+    text-decoration: none;
+    color: #167ac6;
+  }
+  
+  
+  #learn{
+    text-decoration: none;
+    color: #167ac6;
+    font-size: 11px;
+    margin: 10px;
+  }
+
+/* MainSection */
+
+main{
+  display: flex;
+  flex-direction: row;
+  margin-top:20px;
+  margin-right:0px
+
+}
+
 #leftSection{
   display: flex;
   flex-direction: column;
-  margin: 5px;
+  margin-left:-5px;
   width: 60%;
-}
-#upNext{
-  font-size: 13px;
-  font-weight: bold;
-}
-#autoplay{
-  font-size: 13px;
-  color: #767676;
-  font-weight: bold;
-  margin-left: 200px;
-}
-#i{
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -56px -511px;
-  opacity: 0.5;
-  margin: 5px;
-    padding-left: 20px;
-}
-/* #checkBox{
-
-} */
-
-#thumbnails{
-  display: flex;
-  flex-direction: column;
-  margin: 5px;
-  background-color: white;
-  width: 500px;
 }
 #video{
   border: 2px solid black;
@@ -228,48 +246,226 @@ margin-right: 10px;
   margin: 5px;
   padding: 15px;
 }
+
+#section2 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 1000px;
+  margin-bottom: -28px;
+}
+#t  {
+  line-height: 50px;
+  width: 50px;
+  text-align: center;
+  font-size: 30px;
+  font-family: Arial;
+
+  background-color: #66a137;
+  color: white;
+}
+#secondFlex{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-left: 20px;
+}
+#odin  {
+  /* border: 1px solid black; */
+  margin-left: -5px;
+  margin-bottom: 25px;
+  color: rgb(114, 112, 112);
+  font-weight: 600;
+}
+#thirdFlex  {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 520px;
+  margin-top: -25px;
+}
+
+#subscribers {
+
+  width: 125px;
+line-height: 24px;
+font-size: 12px;
+  background-color: red;
+  color: white;
+padding: 5px;
+border-top-left-radius: 2px;
+border-bottom-left-radius: 2px;
+
+}
+#play{
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -48px -775px;
+  padding-left: 20px;
+  vertical-align: middle;
+}
+#numOfSubs{
+
+  width: 25px;
+  height: 22px;
+  line-height: 24px;
+  padding: 5px;
+border: 1px solid #ccc;
+  background-color: white;
+  color: black;
+  margin-left: -4px;
+  vertical-align: middle;
+  font-size: 11px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+
+}
+
+#views  {
+  border-bottom: 3px solid #167ac6;
+  padding-bottom: 3px;
+  padding-left: 50px;
+  color: rgb(170, 163, 163);
+  font-size: 18px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+}
+#navMainBox  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+#navMainBox a {
+  text-decoration: none;
+  color: rgb(170, 163, 163);
+}
+#navBox1 a{
+  margin-right: 10px;
+}
+
+#navBox2 a {
+  margin-left: 10px;
+}
+
+#AddTo {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -151px -725px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#More {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -154px -860px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#Share {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -267px -824px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#a359 {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: 0px -867px; padding-left: 25px;
+  opacity: 0.5;
+}
+
+#a14 {
+  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+  background-position: -174px -804px; padding-left: 25px;
+  opacity: 0.5;
+}
 #vidDesc{
   background: white;
   margin: 5px;
   padding: 15px;
 }
-.vidPrev{
-  display: flex;
-  flex-direction: row;
+#showMore {
+  text-align: center;
+  margin: 0;
+  font-size: small;
+  color: rgb(146, 144, 144);
 }
-.vidImg{
-  width: 168px;
-  height: 94px;
-  border: 1px solid black;
-  margin: 5px;
-}
-.prevTitle{
-  font-size: 15px;
-  margin: 0 0 0 5px;
-}
-.vidInfo{
-  font-size: 11px;
-  color: gray;
-  margin: 1px 0 0 5px;
-}
-#vidLine{
- color: #ececec;
-  margin: 15px;
-}
-#autoBtn{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-margin: 10px;
-}
-#thumbPrev{
+
+/* RIGHT SIDE */
+#thumbnails{
   display: flex;
   flex-direction: column;
+  margin-left: 5px;
+  background-color: white;
+  width: 500px;
 }
-.text{
-  width: 150px;
-}
-/* footer bar */
+#autoBtn{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  }
+  #upNext{
+    font-size: 13px;
+    font-weight: bold;
+  }
+  #autoplay{
+    font-size: 13px;
+    color: #767676;
+    font-weight: bold;
+    margin-left: 200px;
+  }
+  #i{
+    background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    background-position: -56px -511px;
+    opacity: 0.5;
+    margin: 5px;
+      padding-left: 20px;
+  }
+  #checkIm {
+    height: 30px;
+    margin-top: -4px;
+  
+  
+  }
+
+  #vidLine{
+    color: #ececec;
+     margin: 15px;
+   }
+   
+   #thumbPrev{
+     display: flex;
+     flex-direction: column;
+   }
+   #vidPrev{
+    display: flex;
+    flex-direction: row;
+  }
+  .vidImg{
+    width: 168px;
+    height: 94px;
+    border: 1px solid black;
+    margin: 5px;
+  }
+  .text{
+    width: 150px;
+  }
+  .prevTitle{
+    font-size: 15px;
+    margin: 0 0 0 5px;
+  }
+  .vidInfo{
+    font-size: 11px;
+    color: gray;
+    margin: 1px 0 0 5px;
+  }
+
+/* FOOTERsECTION */
+
 footer{
   background: white;
   padding: 25px;
@@ -289,13 +485,7 @@ footer a{
     color: #333333;
     margin-left: 15px;
 }
-#footBot{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-        margin: 5px;
-}
+
 #footTop button{
   margin: 5px;
   border: 1px solid #d3d3d3;
@@ -307,30 +497,7 @@ footer a{
  height: 28px;
  font-family: arial, sans-serif;
 }
-
-#footLine{
- color: #ececec;
-  margin: 15px;
-}
-#footBot a{
-  margin: 5px;
-}
-#botLinks{
-  font-size: 11px;
-    color: #333333;
-      margin-top: 5px;
-}
-
-#triangle{
-  position: relative;
-  border-left: 4px solid transparent;
-  border-right: 4px solid transparent;
-  border-top: 4px solid #333333;
-  top: 7.5px;
-  margin: 5px;
-
-}
-#footLog{
+footLog{
   background-image: url('https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png');
   background-size: 100px 30px;
   height: 30px;
@@ -345,7 +512,15 @@ footer a{
   opacity: 0.5;
   vertical-align: middle;
 }
+#triangle{
+  position: relative;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #333333;
+  top: 7.5px;
+  margin: 5px;
 
+}
 #histLink{
 
   margin: 5px;
@@ -386,198 +561,32 @@ vertical-align: middle;
   font-size: 15px;
 }
 
-/**/
-/* main video section */
-/* #section2 {
-  /* background-color: blue; */
+#footLine{
+  color: #ececec;
+   margin: 15px;
+ }
 
-
-#t  {
-  border: 1px solid black;
-  line-height: 50px;
-  width: 50px;
-  text-align: center;
-  font-size: 30px;
-  font-family: Arial;
-
-  background-color: #66a137;
-  color: white;
-}
-
-#odin  {
-  /* border: 1px solid black; */
-  margin-left: -5px;
-  color: rgb(114, 112, 112);
-  font-weight: 600;
-}
-
-#subscribers {
-
-  width: 125px;
-line-height: 24px;
-font-size: 12px;
-  background-color: red;
-  color: white;
-padding: 5px;
-border-top-left-radius: 2px;
-border-bottom-left-radius: 2px;
-
-}
-#numOfSubs{
-
-  width: 25px;
-  height: 22px;
-  line-height: 24px;
-  padding: 5px;
-border: 1px solid #ccc;
-  background-color: white;
-  color: black;
-  margin-left: -4px;
-  vertical-align: middle;
-  font-size: 11px;
-  border-top-right-radius: 2px;
-  border-bottom-right-radius: 2px;
-
-}
-
-#play{
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -48px -775px;
-  padding-left: 20px;
-  vertical-align: middle;
-}
-
-
-#views  {
-  /* border: 1px solid black; */
-  color: rgb(170, 163, 163);
-  font-size: 25px;
-}
-
-#section2 {
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-  align-items: center;
-  width: 1000px;
-}
-
-#secondFlex{
-  /* border: 1px solid black; */
+ #footBot{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: start;
-  margin-left: 20px;
-}
-
-#thirdFlex  {
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 520px;
-  margin-top: -25px;
+  align-items: flex-start;
+        margin: 5px;
 }
 
 
 
-#navMainBox  {
-  /* border: 1px solid black; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /* align-items: start; */
-
+#footBot a{
+  margin: 5px;
 }
-#navMainBox a {
-  text-decoration: none;
-  color: rgb(170, 163, 163);
-}
-#navBox1 a{
-  margin-right: 10px;
-}
-
-#navBox2 a {
-  margin-left: 10px;
+#botLinks{
+  font-size: 11px;
+    color: #333333;
+      margin-top: 5px;
 }
 
 
-/* #navBox1{
-  /* border: 1px solid black; */
-  /* display: flex;
-  flex-direction: row;
-  justify-content: space-; */
 
 
-/* #navBox2 {
-  /* border: 1px solid black; */
 
-
-/*third section*/
-#showMore {
-  text-align: center;
-  margin: 0;
-  font-size: small;
-  color: rgb(146, 144, 144);
-}
-
-#Nlspan {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png'); background-position: -198px -862px; padding-left: 25px;
-  height: 15px;
-  margin-left: 25px;
-  vertical-align: middle;
-
-}
-
-#youtube{
-  width: 120px;
-  height: 30px;
-}
-
-#NL {
-  font-size: 10px;
-  margin-top: -5px;
-    font-family: arial,sans-serif;
-}
-
-/*navBar*/
-#AddTo {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -151px -725px; padding-left: 25px;
-  opacity: 0.5;
-}
-
-#More {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -154px -860px; padding-left: 25px;
-  opacity: 0.5;
-}
-
-#Share {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -267px -824px; padding-left: 25px;
-  opacity: 0.5;
-}
-
-#a359 {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: 0px -867px; padding-left: 25px;
-  opacity: 0.5;
-}
-
-#a14 {
-  background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -174px -804px; padding-left: 25px;
-  opacity: 0.5;
-}
-
-
-#checkIm {
-  height: 30px;
-  margin-top: -4px;
-
-
-}
+/**/
