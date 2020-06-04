@@ -489,7 +489,7 @@ footer a{
   opacity: 0.5;
   vertical-align: middle;
 }
-#triangle{
+.triangle{
   position: relative;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
