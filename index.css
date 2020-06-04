@@ -419,6 +419,7 @@ border: 1px solid #ccc;
   .prevTitle{
     font-size: 15px;
     margin: 0 0 0 5px;
+    width: 200px;
   }
   .vidInfo{
     font-size: 11px;
