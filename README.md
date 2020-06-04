@@ -2,7 +2,7 @@
 
 > This is our first project at Microverse we recreated our youtube Video Page.
 
-![screenshot](image/screenshot.png)
+![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
