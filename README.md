@@ -44,10 +44,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- We use the embed url from youtube
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is licensed by Microverse and The Odin Project
