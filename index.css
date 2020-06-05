@@ -15,7 +15,7 @@ header{
   justify-content: center;
   width: 100%
 }
-/**sEARCH bAR/*/
+/*SEARCH bAR*/
 #searchB{
   background-color: white;
   display: flex;
@@ -201,6 +201,7 @@ main{
   background: white;
   margin: 5px;
 }
+
 #vidTitle{
   background: white;
   margin: 5px;
