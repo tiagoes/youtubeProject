@@ -127,7 +127,6 @@ margin-right: 25px;
   background: #167ac6;
   color: white;
   width: 100%;
-  /**/
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -214,7 +213,6 @@ main{
 }
 
 #section2 {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: start;
@@ -241,14 +239,12 @@ main{
   margin-left: 20px;
 }
 #odin  {
-  /* border: 1px solid black; */
   margin-left: -5px;
   margin-bottom: 25px;
   color: rgb(114, 112, 112);
   font-weight: 600;
 }
 #thirdFlex  {
-  /* border: 1px solid black; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -258,12 +254,11 @@ main{
 }
 
 #subscribers {
-
-  width: 125px;
-line-height: 24px;
+width: 100px;
+line-height: 12px;
 font-size: 12px;
-  background-color: red;
-  color: white;
+background-color: red;
+color: white;
 padding: 5px;
 border-top-left-radius: 2px;
 border-bottom-left-radius: 2px;
@@ -281,7 +276,7 @@ border-bottom-left-radius: 2px;
   height: 22px;
   line-height: 24px;
   padding: 5px;
-border: 1px solid #ccc;
+  border: 1px solid #ccc;
   background-color: white;
   color: black;
   margin-left: -4px;
@@ -333,8 +328,22 @@ border: 1px solid #ccc;
 
 #Share {
   background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-  background-position: -267px -824px; padding-left: 25px;
+  background-position: -267px -826px; 
+  padding-left: 25px;
   opacity: 0.5;
+  background-color: white;
+  vertical-align: middle;
+  
+}
+#buttonShare {
+width: 50px;
+line-height: 12px;
+font-size: 12px;
+background-color: white;
+color: rgb(170, 163, 163);
+border: 0;
+font-size: 16px;
+vertical-align: middle;
 }
 
 #a359 {
@@ -561,9 +570,3 @@ vertical-align: middle;
     color: #333333;
       margin-top: 5px;
 }
-
-
-
-
-
-/**/
