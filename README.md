@@ -2,7 +2,7 @@
 
 > This is our first project at Microverse we recreated our youtube Video Page.
 
-![screenshot](image/screenshot.png)
+![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
@@ -26,10 +26,11 @@ To get your own copy of our project clone the repository to your local machine.
 
 👤 **Brandon Defoe**
 
-- Github: [@githubhandle](https://github.com/defoebrand)
+- Github: [@defoebrand](https://github.com/defoebrand)
+
 👤 **Tiago Alves**
 
-- Github: [@githubhandle](https://github.com/tiagoes)
+- Github: [@tiagoes](https://github.com/tiagoes)
 
 
 ## 🤝 Contributing
