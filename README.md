@@ -1,15 +1,19 @@
 # Project Name
 
-> This is our first project at Microverse we recreated our youtube Video Page.
+Tiago and Brandon's YouTube Clone project
 
 ![screenshot](images/screenshot.png)
 
 Additional description about the project and its features.
 
+This project was the first project compiled by Brandon and Tiago in the Microverse HTML/CSS section of the course work. It involved recreating an archived YouTube video page.
+
 ## Built With
 
-- html and Css
-- Vscode and Atom
+- HTML and CSS
+- VScode and Atom
+- Windows10 and Ubuntu
+- https://validator.w3.org was used to validate the HTML code in this project
 
 ## Live Demo
 
@@ -19,7 +23,6 @@ Additional description about the project and its features.
 ## Getting Started
 
 To get your own copy of our project clone the repository to your local machine.
-
 
 
 ## Authors
