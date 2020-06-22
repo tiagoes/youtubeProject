@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>BT youtube Clone</title>
+</head>
+
+<body>
+
+  <header>
+    <div id="searchB">
+        <span id="Nlspan"></span>
+        <img id="youtube" src="https://archive.vn/Bss88/51a3832e6af6792add876216da444db23a4bea96.png" alt="">
+        <p id="NL" >NL</p>
+      <div id="divInput">
+        <input type="text" placeholder="Search">
+        <button type="button" id="inputButton"><span id="mag"></span></button>
+      </div>
+        <img id="cam" src="images/cam.png" alt="">
+        <span id="arrow"></span>
+        <img id="bell" src="images/bell.png" alt="">
+        <button id="SignIn">Sign In</button>
+    </div>
+
+    <div id="languageH">
+      <p><span id="langLogo"></span>Choose your language.</p>
+      <button id="langBut"></button>
+    </div>
+
+    <div id="linksH">
+      <p>You're viewing YouTube in English (US). You can <a href="" id="change" >change this preference below.</a> </p>
+      <a href="" id="learn" >Learn More</a>
+    </div>
+  </header>
+
+  <main>
+      <div id="leftSection">
+
+          <!-- video -->
+        <div id="video">
+          <iframe width="605" height="360"
+          src="https://www.youtube.com/embed/V74l_zS1x8E"
+          allow="accelerometer; autoplay;
+          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+          <!-- second section -->
+        <section id="vidTitle">
+              <h1>Contributing to Open Source Part I: The Easy Way</h1>
+              <div id="section2" >
+                <p id="t">T</p>
+                <div id="secondFlex">
+                  <p id="odin">The Odin Project</p>
+                  <div id="thirdFlex"><div>
+                    <button id="subscribers"><span
+                    id="play"></span>Subscribe</button>
+                    <span id="numOfSubs">799</span></div>
+                    <p id="views">50,016 views</p>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <nav>
+                <div id="navMainBox">
+                  <div id="navBox1">
+                    <a href=""><span id="AddTo"></span> AddTo</a>
+                    <a href=""><span id="More"></span> More</a>
+                    <button id="buttonShare"><span id="Share"></span>Share</button>
+                  </div>
+                  <div id="navBox2">
+                    <a href=""><span id="a359"></span>359</a>
+                    <a href=""><span id="a14"></span>14</a>
+                  </div>
+                </div>
+              </nav>
+        </section>
+
+          <!-- third section -->
+          <section id="vidDesc">
+            <h4 id='pubTitle'>Published on Feb 27, 2014</h4>
+            <p>How do you contribute to open source? In this video,
+              I'll describe the easiest way to make a simple contribution
+              to an open source project -- without using the command line,
+              a text editor, "forking a repo", or even touching Git outside
+              of Github. I'll also describe what kinds of contributions open
+              source software projects are typically looking for. As an example,
+              I use submitting a student solution to a web development exercise
+              from The Odin Project, a free online curriculum for learning web
+              development with Ruby on Rails. You can find more information
+              about that project at http://theodinproject.com.</p>
+              <hr>
+              <p id="showMore">SHOW MORE</p>
+          </section>
+    </div>
+
+  <div id="thumbnails">
+        <!-- first video -->
+        <div id="autoBtn">
+          <span id="upNext">Up next</span>
+          <span id="autoplay">Autoplay<span id="i"></span></span>
+          <img id="checkIm" src="images/checkbox.png" alt="">
+        </div>
+
+        <div class="vidPrev">
+          <img class="vidImg" src="images/contrib-to-open.jpg" alt="video preview">
+          <div class="text">
+            <p class="prevTitle">Contributing to Open Source Part II: The Real Way </p>
+            <p class="vidInfo">The Odin Project</p>
+            <p class="vidInfo">29,985 views</p>
+          </div>
+        </div>
+
+    <hr id="vidLine">
+
+      <!-- other videos -->
+    <div id="thumbPrev">
+      <div class="vidPrev">
+        <img class="vidImg" src="images/how-to-get.jpg" alt="video preview">
+        <div class="text">
+          <p class="prevTitle">'How to Get a Job at the Big 4 -
+            Amazon, Facebook, Google & Microsoft' by Sean Lee </p>
+            <p class="vidInfo">imtiana</p>
+            <p class="vidInfo">981,543 views</p>
+          </div>
+        </div>
+        <div class="vidPrev">
+          <img class="vidImg" src="images/programming-in.jpg" alt="video preview">
+          <div class="text">
+            <p class="prevTitle">Programming in Visual Basic .Net
+              How to Connect Access Database to VB.Net </p>
+              <p class="vidInfo">iBassKung</p>
+              <p class="vidInfo">16,130,993 views</p>
+            </div>
+          </div>
+
+          <div class="vidPrev">
+            <img class="vidImg" src="images/rest.jpg" alt="video preview">
+            <div class="text">
+              <p class="prevTitle">REST API concepts and examples </p>
+              <p class="vidInfo">WebConcepts</p>
+              <p class="vidInfo">3,580,484 views</p>
+            </div>
+          </div>
+
+          <div class="vidPrev">
+            <img class="vidImg" src="images/git-pay.jpg" alt="video preview">
+            <div class="text">
+              <p class="prevTitle">GitHub - Why Microsoft Paid $7.5B
+                for the Future of Software! - A Case Study for Entrepreneurs </p>
+                <p class="vidInfo">Valuetainment</p>
+                <p class="vidInfo">444,634 views</p>
+              </div>
+            </div>
+
+            <div class="vidPrev">
+              <img class="vidImg" src="images/terrain.jpg" alt="video preview">
+              <div class="text">
+                <p class="prevTitle">How to create a 3D Terrain with
+                  Google Maps and height maps in Photoshop - 3D Map Generator Terrain </p>
+                  <p class="vidInfo">Orange Box Ceo</p>
+                  <p class="vidInfo">6,269,391 views</p>
+                </div>
+              </div>
+
+              <div class="vidPrev">
+                <img class="vidImg" src="images/cnns.jpg" alt="video preview">
+                <div class="text">
+                  <p class="prevTitle">Convolutional Neural Networks (CNNs) explained </p>
+                  <p class="vidInfo">deeplizard</p>
+                  <p class="vidInfo">239,752 views</p>
+                </div>
+              </div>
+
+              <div class="vidPrev">
+                <img class="vidImg" src="images/interview.jpg" alt="video preview">
+                <div class="text">
+                  <p class="prevTitle">Top 10 Linux Job Interview Questions</p>
+                  <p class="vidInfo">tutoriaLinux</p>
+                  <p class="vidInfo">1,236,003 views</p>
+                </div>
+              </div>
+
+              <div class="vidPrev">
+                <img class="vidImg" src="images/sql-inject.jpg" alt="video preview">
+                <div class="text">
+                  <p class="prevTitle">Running an SQL Injection Attack - Computerphile</p>
+                  <p class="vidInfo">Computerphile</p>
+                  <p class="vidInfo">2,217,477 views</p>
+                </div>
+              </div>
+
+              <div class="vidPrev">
+                <img class="vidImg" src="images/prod-base.jpg" alt="video preview">
+                <div class="text">
+                  <p class="prevTitle">How to prepare for product based companies??</p>
+                  <p class="vidInfo">Gate Lectures by Ravindrababu Ravula</p>
+                  <p class="vidInfo">291,215 views</p>
+                </div>
+              </div>
+
+              <div class="vidPrev">
+                <img class="vidImg" src="images/visual-basic.jpg" alt="video preview">
+                <div class="text">
+                  <p class="prevTitle">Visual Basic .Net : Search in Access
+                    Database - DataGridView BindingSource Filter Part 1/2 </p>
+                    <p class="vidInfo">iBassKung</p>
+                    <p class="vidInfo">6,047,577 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/convert-pdf.jpg" alt="video preview">f
+                  <div class="text">
+                    <p class="prevTitle">How to Convert pdf to word without software</p>
+                    <p class="vidInfo">karim hamdadi</p>
+                    <p class="vidInfo">12,275,519 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/python.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">What Python Projects Should I Build to Get a Job? </p>
+                    <p class="vidInfo">Real Python</p>
+                    <p class="vidInfo">169,155 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/tourist.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">How To NOT Look Like A Tourist | What To Wear In Europe </p>
+                    <p class="vidInfo">Audrey Coyne</p>
+                    <p class="vidInfo">3,432,133 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/git-pull.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">Your First GitHub Pull Request (in 10 Mins) </p>
+                    <p class="vidInfo">Jackson Bates</p>
+                    <p class="vidInfo">31,930 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/inexperience.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">Top signs of an inexperienced programmer</p>
+                    <p class="vidInfo">TechLead</p>
+                    <p class="vidInfo">928,523 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/left-job.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">Why I left my job at Google (as a software engineer) </p>
+                    <p class="vidInfo">TechLead</p>
+                    <p class="vidInfo">1,684,582 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/stoiber.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">Max Stoiber - I want you to contribute to open source </p>
+                    <p class="vidInfo">ReactRally</p>
+                    <p class="vidInfo">3,134 views</p>
+                  </div>
+                </div>
+
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/learn.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">How to Learn Anything... Fast - Josh Kaufman </p>
+                    <p class="vidInfo">The RSA</p>
+                    <p class="vidInfo">3,157,647 views</p>
+                  </div>
+                </div>
+
+                <div class="vidPrev">
+                  <img class="vidImg" src="images/git-catopus.jpg" alt="video preview">
+                  <div class="text">
+                    <p class="prevTitle">Git & GitHub: Pull requests (10/11) </p>
+                    <p class="vidInfo">CodeCourse</p>
+                    <p class="vidInfo">78,624 views</p>
+                  </div>
+                </div>
+              </div>
+      </div>
+
+  </main>
+
+  <footer>
+        <div id="footTop">
+
+              <span id="footLog"></span>
+              <button><span id="lang"></span><span>Language: English</span><span class="triangle"></span></button>
+
+              <button><span>Location: Netherlands</span><span class="triangle"></span></button>
+
+              <button><span>Restricted Mode: Off</span><span class="triangle"></span></button>
+
+              <a href="" id="histLink"><span id="hist"></span><span>History</span></a>
+              <a href="" id="helpLink"><span id="help"></span><span>Help</span></a>
+            </div>
+        <hr id="footLine">
+        <div id="footBot">
+              <div>
+                <a href="">About</a>
+                <a href="">Press</a>
+                <a href="">Copyright</a>
+                <a href="">Creators</a>
+                <a href="">Advertise</a>
+                <a href="">Developers</a>
+              </div>
+              <div id="botLinks">
+                <a href="">Terms</a>
+                <a href="">Privacy</a>
+                <a href="">Policy & Safety</a>
+                <a href="">Test new features</a>
+              </div>
+            </div>
+  </footer>
+
+
+
+
+</body>
+</html>
